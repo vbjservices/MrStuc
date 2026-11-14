@@ -1,20 +1,16 @@
-# Mister Stuc — Premium concept V4
+Mister Stuc Premium V5 | VBJ Services
 
-Responsive websiteconcept door VBJ Services voor Nick Schipper / Mister Stuc.
+Originele donkerblauwe huisstijl en zeven authentieke foto’s behouden. Responsive HTML/CSS/JS.
 
-## Inhoud
-- `index.html` — GitHub Pages ingang
-- `assets/css/style.css` — layout, parallax en animaties
-- `assets/js/app.js` — scrolltellers, galerij, navigatie, formulier
-- `assets/images/image-01.jpg` t/m `image-07.jpg` — zeven originele door opdrachtgever aangeleverde foto's
-- `preview-standalone.html` — zelfstandige preview, inclusief ingebedde afbeeldingen en code
+Open preview-standalone.html in de browser of publiceer index.html met assets/ op GitHub Pages.
 
-## Publiceren
-Upload de inhoud van deze map naar de root van een GitHub-repository. Stel via Settings → Pages `Deploy from a branch` in, branch `main`, map `/ (root)`.
+Contactformulier gebruikt mailto (geen backend). Bevestig claims over garantie en ervaring voor publicatie.
 
-## Aandachtspunten
-- Het getoonde hoofdmerk is een typografisch concept, niet het officiële bronbestand van het Mister Stuc-logo.
-- Knauf, Brander, Stucgoed en Ardex worden als merknaam getoond (geen officiële logo's of bewering van samenwerking). Hun namen worden op de bestaande website genoemd als gebruikte materialen.
-- De tellerclaims 12+ jaar en 100% garantie zijn afkomstig uit de bestaande website; bevestig actualiteit/voorwaarden voor livegang.
-- Contactformulier opent een e-mailprogramma via mailto, geen backend.
-- Externe Google Fonts hebben een systeembrede font fallback en zijn niet essentieel voor weergave.
+
+## V6 wijzigingen
+- Originele Mister Stuc-logo's toegevoegd (woordmerk + mascotte).
+- Hero-afbeelding nu als volledige achtergrondfoto.
+- Scrollanimaties, tellers, progress bar, parallax en lightbox behouden.
+
+## V8 — tellers
+De 12+ en 100% zijn groter. De actuele waarden staan vanaf het laden in de HTML; na de eerste scroll start eenmalig een zelfstandige 1,05s tellende animatie van 0 naar de juiste waarde in stappen. Geen terugval bij terugscrollen of stoppen. Bestaande V7 scroll-scene en features blijven behouden.

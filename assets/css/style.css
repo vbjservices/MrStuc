@@ -42,3 +42,115 @@ body{background:var(--warm)}
 .brand-disclaimer{margin-top:22px;font-size:11px;line-height:1.7;color:#758a98;max-width:850px}
 @media(max-width:850px){.brand-intro{flex-direction:column;align-items:start}.brands-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.brands-grid{gap:10px}.brand-tile{min-height:128px}.brand-lettering{font-size:18px}.brand-partners{padding-block:80px}}
+
+/* VBJ Services — Mister Stuc Premium V5. Brand: original navy & blue. */
+:root{--navy:#092b49;--deep:#071d32;--blue:#1467ad;--line:#d8e2e9;--warm:#f7f8f7}
+body{background:#f8fafb}
+.header{background:rgba(255,255,255,.97);border-color:#e6edf1}
+.nav{min-height:84px}.nav-links a{font-weight:600;letter-spacing:.01em}.nav-cta{border-radius:6px!important}
+.btn{border-radius:6px;letter-spacing:.005em;min-height:49px;gap:16px;justify-content:space-between}.btn span{font-size:17px}.btn:hover{transform:translateY(-2px)}
+.hero{background:#f2f6f9;min-height:690px;padding-top:84px}
+.hero-grid{grid-template-columns:1.02fr .98fr;gap:6%;min-height:600px}
+.hero-copy{padding:70px 0 45px}.hero h1{font-size:clamp(54px,6.3vw,96px);letter-spacing:-.078em;line-height:1.02;margin:25px 0 26px}.hero h1 em{color:#2379b8}.hero h1 em:after{height:2px;bottom:-10px;background:#87b9d8}
+.hero-copy>p{font-size:16px;line-height:1.85;color:#536b7c;max-width:460px}
+.hero-actions{margin:31px 0 55px}.hero-visual{height:570px;align-self:stretch;margin-top:32px;align-items:center}.hero-photo{width:95%;height:91%;border-radius:0;box-shadow:24px 24px 0 #dbe9f2}.hero-photo img{object-position:center 31%;filter:saturate(.82)}
+.hero-sticker{height:116px;width:116px;right:-6px;top:4%;background:#0b3558;box-shadow:0 15px 30px #071f3230;transform:rotate(8deg);letter-spacing:.07em}.sticker-cross{font-size:23px}
+.hero-facts strong{font-size:21px}.hero-facts span{font-size:11px}
+.trust-strip{background:#092b49}.trust-inner{padding:24px 0}
+.section{padding:105px 0}.section-label{margin-bottom:32px}.section h2,.brand-intro h2{letter-spacing:-.069em}
+.about.soft-section{background:#fff;box-shadow:0 0 0 100vmax #fff}.about-grid{gap:80px}
+.services{background:#f0f5f8}.service{min-height:275px;padding:35px;transition:transform .35s,box-shadow .35s,background .35s}.service-icon{border-radius:2px;background:#eaf4fa;color:#1266a7}.service h3{font-size:20px}
+.projects{background:#f8fafb}.gallery{grid-template-columns:1.35fr 1fr 1fr;grid-auto-rows:265px;gap:14px}.gallery-item{border-radius:0;box-shadow:none}.gallery-item:hover{box-shadow:none}.gallery-item img{filter:saturate(.88)}.gallery-wide{grid-column:span 2}.gallery-item>span{font-size:12px}
+.project-index{border-color:#e0e7eb;background:white}
+.statement{background:#092b49;min-height:410px}.statement-bg{opacity:.22}
+.process.soft-section{background:#eaf2f7;box-shadow:0 0 0 100vmax #eaf2f7}.step{border-radius:0;background:#fff;border:1px solid #d8e5ed;box-shadow:none}
+.quote{background:#e3eef6}.quote blockquote{line-height:1.58}
+.brand-partners{background:#f7fafc}.brand-tile{box-shadow:none;min-height:140px}
+.contact{background:#eef4f8}.contact-form{background:white;border:1px solid #e1e9ef}.contact-link{font-size:22px}
+.footer{background:#071d32}
+@media(max-width:900px){.hero-grid{gap:25px}.hero h1{font-size:clamp(49px,6vw,74px)}.hero-visual{height:520px}.gallery{grid-auto-rows:220px}}
+@media(max-width:760px){.nav{min-height:72px}.hero{padding-top:72px}.hero-grid{grid-template-columns:1fr;gap:10px}.hero-copy{padding:48px 0 0}.hero h1{font-size:clamp(51px,12vw,77px)}.hero-visual{height:430px;margin-top:0}.hero-photo{height:90%;width:88%}.hero-sticker{right:0}.section{padding:75px 0}.gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:185px}.gallery-wide{grid-column:span 2}.contact-grid{gap:35px}}
+@media(max-width:480px){.hero-visual{height:355px}.gallery{grid-template-columns:1fr;grid-auto-rows:220px}.gallery-wide{grid-column:span 1}.hero-facts{gap:12px}.hero-facts strong{font-size:17px}.hero-actions{gap:20px}.hero-sticker{width:95px;height:95px;font-size:9px}.section h2{font-size:39px}}
+
+
+/* V6 — original logos + background hero */
+.brand{display:flex;align-items:center;min-height:44px}.brand-logo{display:block;height:54px;width:auto;max-width:240px;object-fit:contain}.footer-logo-image img{display:block;height:46px;width:auto;max-width:220px;object-fit:contain;filter:brightness(0) invert(1)}
+.hero.hero-background{position:relative;min-height:860px;background:#0b2e50;overflow:hidden;isolation:isolate}.hero-background .hero-bg{position:absolute;inset:0;background-image:url('../images/image-01.jpg');background-size:cover;background-position:center 34%;transform:translate3d(0,var(--parallax,0px),0) scale(1.06);will-change:transform}.hero-background .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,26,42,.86) 0%,rgba(7,26,42,.73) 35%,rgba(7,26,42,.28) 100%),linear-gradient(180deg,rgba(8,30,48,.18),rgba(8,30,48,.48) 100%)}.hero-background .hero-grid{position:relative;z-index:2;grid-template-columns:minmax(0,1fr) 330px;gap:42px;align-items:end;min-height:690px;padding-top:130px;padding-bottom:76px}.hero-background .hero-copy{padding:0;max-width:720px}.hero-background .hero-copy .eyebrow{color:#b5dcf7}.hero-background .hero-copy .eyebrow-dot{background:#55b4ea}.hero-background h1{color:#fff;max-width:780px}.hero-background h1 em{color:#55b4ea}.hero-background .hero-copy>p{color:#e4eef5;max-width:570px}.hero-background .text-link{color:#fff;border-bottom-color:rgba(255,255,255,.35)}.hero-background .hero-facts{border-top:1px solid rgba(255,255,255,.24)}.hero-background .hero-facts strong{color:#fff}.hero-background .hero-facts span{color:#d0dce6}.hero-brand-card{position:relative;z-index:2;justify-self:end;align-self:center;width:100%;max-width:290px;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.5);box-shadow:0 22px 46px rgba(3,17,29,.22);padding:22px 20px 18px;border-radius:10px;backdrop-filter:blur(6px)}.hero-mascot{width:100%;height:auto;display:block;margin:0 auto 16px auto;max-width:220px}.hero-card-copy{display:flex;flex-direction:column;gap:8px}.hero-card-copy strong{font:800 20px var(--display);color:var(--navy);letter-spacing:-.04em}.hero-card-copy span{font-size:12px;line-height:1.75;color:#637887}.hero-background .hero-bottom{position:relative;z-index:2;color:#d7e4ee;padding-top:0;padding-bottom:24px}.hero-background .btn-primary{background:#0b2e50;border:1px solid rgba(255,255,255,.12)}.hero-background .btn-primary:hover{background:#1467ad}.hero-background .btn:before{background:linear-gradient(120deg,#2077b5,#54b7ec)}
+@media(max-width:980px){.hero-background .hero-grid{grid-template-columns:1fr;gap:28px;align-items:end}.hero-brand-card{justify-self:start;max-width:340px}}
+@media(max-width:760px){.brand-logo{height:42px;max-width:180px}.hero.hero-background{min-height:760px}.hero-background .hero-grid{padding-top:104px;padding-bottom:44px;min-height:610px}.hero-background .hero-copy>p{max-width:100%}.hero-brand-card{max-width:260px;padding:18px}.hero-mascot{max-width:170px}.footer-logo-image img{height:34px}}
+@media(max-width:480px){.hero.hero-background{min-height:710px}.hero-background .hero-grid{padding-top:98px;padding-bottom:28px;min-height:560px}.hero-brand-card{max-width:220px}.hero-card-copy strong{font-size:18px}.hero-card-copy span{font-size:11px;line-height:1.6}}
+
+/* Accessible hero branding and reduced-motion controls */
+.hero-background .hero-brand-card{background:rgba(255,255,255,.97)}
+.hero-background .hero-card-copy span{color:#455f72}
+@media(max-width:760px){.hero-background .hero-grid{padding-top:70px}.hero.hero-background{padding-top:72px}}
+@media(prefers-reduced-motion:reduce){.hero-background .hero-bg{transform:none!important;will-change:auto}}
+
+/* V7 – scroll-driven pinned cinematic hero, preserving the V6 branding and all features */
+.hero-scroll-scene{position:relative;height:245vh;min-height:1400px}
+.hero-scroll-scene .hero.hero-background{
+ position:sticky;top:0;height:100vh;min-height:600px;
+ padding-top:0;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between
+}
+.hero-scroll-scene .hero-background .hero-grid{
+ width:min(1320px,calc(100% - 100px));flex:1;min-height:0;
+ padding-top:105px;padding-bottom:45px;align-items:center;
+}
+.hero-scroll-scene .hero-background .hero-copy{transform:translate3d(0,0,0);will-change:transform}
+.hero-scroll-scene .hero-background .hero-copy .eyebrow,
+.hero-scroll-scene .hero-background h1,
+.hero-scroll-scene .hero-background .hero-copy>p,
+.hero-scroll-scene .hero-background .hero-actions,
+.hero-scroll-scene .hero-background .hero-facts{
+ will-change:transform,opacity;transition:none
+}
+.hero-scroll-scene .hero-background .hero-bg{background-position:center 33%;will-change:transform}
+.hero-scroll-scene .hero-background .hero-overlay{background:linear-gradient(90deg,rgba(5,23,39,.88),rgba(5,23,39,.69) 47%,rgba(5,23,39,.30)),linear-gradient(0deg,rgba(5,23,39,.47),transparent 45%)}
+.hero-scroll-scene .hero-background .hero-brand-card{transform:translate3d(0,0,0);will-change:transform,opacity;transition:none}
+.hero-scroll-scene .hero-background .hero-facts.scroll-stats{
+ opacity:1;transform:none;filter:none;pointer-events:auto
+}
+.hero-scroll-scene .hero-background .hero-bottom{width:min(1320px,calc(100% - 100px));flex-shrink:0}
+.hero-scroll-scene .hero-background .hero-copy>p{max-width:550px}
+.hero-scroll-scene .hero-background .hero-card-copy span{font-size:12px}
+@media(max-width:1100px){
+ .hero-scroll-scene .hero-background .hero-grid{width:min(100% - 60px,1320px);grid-template-columns:minmax(0,1fr) 230px;gap:18px}
+ .hero-scroll-scene .hero-background .hero-brand-card{max-width:220px}
+}
+@media(max-width:760px){
+ .hero-scroll-scene{height:225svh;min-height:1080px}
+ .hero-scroll-scene .hero.hero-background{height:100svh;min-height:620px}
+ .hero-scroll-scene .hero-background .hero-grid{width:calc(100% - 38px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:10px;padding-top:90px;padding-bottom:12px}
+ .hero-scroll-scene .hero-background .hero-copy{width:100%}
+ .hero-scroll-scene .hero-background h1{font-size:clamp(40px,10vw,65px);margin:17px 0}
+ .hero-scroll-scene .hero-background .hero-copy>p{font-size:13px;line-height:1.65}
+ .hero-scroll-scene .hero-background .hero-actions{margin:20px 0 23px}
+ .hero-scroll-scene .hero-background .hero-brand-card{display:none}
+ .hero-scroll-scene .hero-background .hero-bottom{width:calc(100% - 38px);padding-bottom:14px}
+ .hero-scroll-scene .hero-background .hero-bg{background-position:57% 30%}
+}
+@media(max-width:390px){
+ .hero-scroll-scene .hero-background h1{font-size:39px}
+ .hero-scroll-scene .hero-background .hero-copy>p{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){
+ .hero-scroll-scene{height:auto;min-height:0}
+ .hero-scroll-scene .hero.hero-background{position:relative;height:auto;min-height:740px}
+ .hero-scroll-scene .hero-background .hero-grid{min-height:650px}
+}
+
+/* V8 — much larger, always-accurate stat values; animation is a one-shot trigger */
+.hero-background .hero-facts strong{font-size:24px;line-height:1.05;letter-spacing:-.045em;white-space:nowrap}
+.hero-background .hero-facts .count-up{font-size:clamp(40px,4.2vw,62px);font-weight:800;line-height:.99;letter-spacing:-.07em;font-variant-numeric:tabular-nums;display:inline-block}
+.hero-background .hero-facts>div:nth-child(3) strong{font-size:clamp(23px,2.6vw,35px);line-height:1.2}
+.hero-background .hero-facts>div{gap:11px}
+.hero-background .hero-facts>div>span{font-size:12px;line-height:1.55;max-width:180px}
+.hero-scroll-scene .hero-background .hero-facts.scroll-stats{opacity:1;filter:none;pointer-events:auto}
+@media(max-width:760px){
+ .hero-background .hero-facts{gap:18px;justify-content:space-between}
+ .hero-background .hero-facts strong{font-size:15px}
+ .hero-background .hero-facts .count-up{font-size:clamp(33px,8vw,45px)}
+ .hero-background .hero-facts>div:nth-child(3) strong{font-size:22px}
+ .hero-background .hero-facts>div>span{font-size:10px}
+}
+@media(max-width:380px){.hero-background .hero-facts{gap:9px}.hero-background .hero-facts .count-up{font-size:31px}}
